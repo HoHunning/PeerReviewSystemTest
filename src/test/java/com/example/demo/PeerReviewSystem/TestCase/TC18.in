@@ -1,0 +1,4 @@
+student 001 002 003 004
+schoolStrategy A,100 B,90 C,80 D,70 E,60
+designCriterion A1 criteria2_1.txt
+averageCriterion A1

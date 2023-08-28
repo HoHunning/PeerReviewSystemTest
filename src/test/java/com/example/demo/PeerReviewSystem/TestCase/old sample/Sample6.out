@@ -1,0 +1,14 @@
+A1-001 was reviewed by 002. Level: A B
+A1-001 was reviewed by 003. Level: B C
+A1-001 was reviewed by 004. Level: C D
+A1-002 was reviewed by 001. Level: A A
+A1-002 was reviewed by 003. Level: B C
+A1-002 was reviewed by 004. Level: C D
+A1-003 was reviewed by 001. Level: A A
+A1-003 was reviewed by 002. Level: A B
+A1-003 was reviewed by 004. Level: C D
+A1-004 was reviewed by 001. Level: A A
+A1-004 was reviewed by 002. Level: A B
+A1-004 was reviewed by 003. Level: B C
+Assignment: A1, Criterion: Criterion1, AvgScore: 92.5
+Assignment: A1, Criterion: Criterion2, AvgScore: 85.0

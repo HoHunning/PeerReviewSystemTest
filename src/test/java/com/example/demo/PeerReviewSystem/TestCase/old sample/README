@@ -1,0 +1,11 @@
+Case 0: sample
+Case 1: assignment command, error message of can not review self
+Case 2: assignment command, error message of reviewer number constrain
+Case 3: assignment command, different level number
+Case 4: assignment command, different criteria number
+Case 5: different criteria, printRubric
+Case 6: different criteria, averageCriterion
+Case 7: calculateScore MedianRankingStrategy
+Case 8: findStrength, findWeakness MedianRankingStrategy
+Case 9: more than one assignment
+Case 10: complex

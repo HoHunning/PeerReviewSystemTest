@@ -1,0 +1,26 @@
+student 001 002 003 004 005
+schoolStrategy A,100 B,80 C,60 D,40
+designCriterion A1 criteria2_2.txt
+assignment A1 001 001,score2_3.txt 003,score2_4.txt 004,score2_6.txt
+assignment A1 001 002,score2_3.txt 003,score2_5.txt 004,score2_4.txt
+assignment A1 002 001,score2_4.txt 003,score2_3.txt 004,score2_3.txt
+assignment A1 003 001,score2_3.txt 002,score2_5.txt 004,score2_3.txt
+assignment A1 004 001,score2_6.txt 002,score2_6.txt 003,score2_4.txt
+assignment A1 005 001,score2_5.txt 002,score2_4.txt 003,score2_3.txt
+designCriterion A2 criteria2_3.txt
+assignment A2 001 002,score2_1.txt
+assignment A2 001 002,score2_3.txt 003,score2_3.txt 004,score2_3.txt 005,score2_3.txt
+assignment A2 002 001,score2_6.txt 003,score2_3.txt 004,score2_4.txt 005,score2_5.txt
+assignment A2 003 001,score2_3.txt 002,score2_3.txt 004,score2_3.txt 005,score2_6.txt
+assignment A2 004 001,score2_4.txt 002,score2_3.txt 003,score2_5.txt 005,score2_4.txt
+assignment A2 005 001,score2_4.txt 002,score2_6.txt 003,score2_6.txt 004,score2_4.txt
+printRubric A1
+averageCriterion A1
+calculateScore A1 001 MeanRankingStrategy
+findStrength A1 004 MeanRankingStrategy
+findWeakness A1 005 MeanRankingStrategy
+printRubric A2
+averageCriterion A2
+calculateScore A2 002 MedianRankingStrategy
+findStrength A2 003 MedianRankingStrategy
+findWeakness A2 004 MedianRankingStrategy

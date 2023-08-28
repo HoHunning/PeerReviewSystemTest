@@ -1,0 +1,22 @@
+A1-001 was reviewed by 002. Level: A B
+A1-001 was reviewed by 003. Level: B C
+A1-001 was reviewed by 004. Level: C D
+A1-002 was reviewed by 001. Level: A A
+A1-002 was reviewed by 003. Level: B C
+A1-002 was reviewed by 004. Level: C D
+A1-003 was reviewed by 001. Level: A A
+A1-003 was reviewed by 002. Level: A B
+A1-003 was reviewed by 004. Level: C D
+A1-004 was reviewed by 001. Level: A A
+A1-004 was reviewed by 002. Level: A B
+A1-004 was reviewed by 003. Level: B C
+(Criterion1,A) Description1
+(Criterion1,B) Description2
+(Criterion1,C) Description3
+(Criterion1,D) Description4
+(Criterion1,E) Description5
+(Criterion2,A) Description6
+(Criterion2,B) Description7
+(Criterion2,C) Description8
+(Criterion2,D) Description9
+(Criterion2,E) Description10

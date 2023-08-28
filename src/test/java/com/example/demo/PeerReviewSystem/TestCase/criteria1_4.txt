@@ -1,0 +1,6 @@
+C1	Excellent	D1
+C1	Competent	D2
+C1	NeedsWork	D3
+C2	Excellent	D4
+C2	Competent	D5
+C2	NeedsWork	D6

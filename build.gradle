@@ -1,0 +1,42 @@
+plugins {
+	id 'org.springframework.boot' version '2.6.5'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'org.freemarker', name: 'freemarker', version: '2.3.23'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation group: 'junit', name: 'junit', version: '4.12'
+	testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+	workingDir = file("src/test/java/com/example/demo/PeerReviewSystem/TestCase/") 
+	testLogging {
+		events "PASSED", "SKIPPED", "FAILED", "STANDARD_OUT", "STANDARD_ERROR"
+        showStandardStreams = true
+		afterSuite { desc, result ->
+			if (!desc.parent) { // will match the outermost suite
+                def output = "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} passed, ${result.failedTestCount} failed, ${result.skippedTestCount} skipped)"
+                def startItem = '|  ', endItem = '  |'
+                def repeatLength = startItem.length() + output.length() + endItem.length()
+                println('\n' + ('-' * repeatLength) + '\n' + startItem + output + endItem + '\n' + ('-' * repeatLength))
+            }
+		}
+    }
+}
+
+tasks.named('clean'){
+	delete("/Users/chris/Desktop/nowWorking/PeerReviewSystemTest/src/test/java/com/example/demo/PeerReviewSystem/PeerReviewSystemTest.java");
+}

@@ -1,0 +1,40 @@
+Case 0: sample input (compisition of case 1, 4, 5, 7, 13, 14, 16, 20, 26, 32)
+Case 1: successful register student
+Case 2: duplicate student id
+Case 3: student id already registered
+Case 4: different schoolStrategy
+Case 5: different criteria
+Case 6: repeated assignment id
+Case 7: successful peer review
+Case 8: assignment criteria has not been designed
+Case 9: student has not been registered
+Case 10: reviewer has not been registered
+Case 11: repeated reviewer id
+Case 12: students cannot self review
+Case 13: reviewer number constrain
+Case 14: different criteria, printRubric
+Case 15: criteria not designed
+Case 16: different criteria, averageCriterion
+Case 17: some student are not reviewed
+Case 18: no student is reviewed
+Case 19: criterion not designed
+Case 20: MeanRankingStrategy, calculateScore
+Case 21: MedianRankingStrategy, calculateScore
+Case 22: criterion not designed, calculateScore
+Case 23: student not registered, calculateScore
+Case 24: student not reviewed, calculateScore
+Case 25: invalid strategy, calculateScore
+Case 26: MeanRankingStrategy, findStrength
+Case 27: MedianRankingStrategy, findStrength
+Case 28: criterion not designed, findStrength
+Case 29: student not registered, findStrength
+Case 30: student not reviewed, findStrength
+Case 31: invalid strategy, findStrength
+Case 32: MeanRankingStrategy, findWeakness
+Case 33: MedianRankingStrategy, findWeakness
+Case 34: criterion not designed, findWeakness
+Case 35: student not registered, findWeakness
+Case 36: student not reviewed, findWeakness
+Case 37: invalid strategy, findWeakness
+Case 38: complex case, more than one assignment
+Case 39: more complex case

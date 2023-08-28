@@ -1,0 +1,8 @@
+Criterion1	A	Description1
+Criterion1	B	Description2
+Criterion1	C	Description3
+Criterion1	D	Description4
+Criterion2	A	Description5
+Criterion2	B	Description6
+Criterion2	C	Description7
+Criterion2	D	Description8

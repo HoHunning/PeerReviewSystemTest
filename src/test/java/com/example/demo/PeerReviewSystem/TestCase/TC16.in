@@ -1,0 +1,8 @@
+student 001 002 003 004
+schoolStrategy A,100 B,90 C,80 D,70 E,60
+designCriterion A1 criteria2_1.txt
+assignment A1 001 002,score2_2.txt 003,score2_3.txt 004,score2_4.txt
+assignment A1 002 001,score2_1.txt 003,score2_3.txt 004,score2_4.txt
+assignment A1 003 001,score2_1.txt 002,score2_2.txt 004,score2_4.txt
+assignment A1 004 001,score2_1.txt 002,score2_2.txt 003,score2_3.txt
+averageCriterion A1
